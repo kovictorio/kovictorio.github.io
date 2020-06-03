@@ -1,0 +1,160 @@
+img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 5px solid black;
+  margin-top: -8px;
+}
+
+header {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -160px;
+  margin-bottom: 115px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 66px;
+  line-height: 45px;
+  color: #222;
+}
+
+smaller {
+  font-size: 30px;
+}
+
+.container {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: justify;
+  color: #222;
+}
+
+.content {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.firstcontent {
+  margin-top: none;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #222;
+}
+
+.first {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  list-style-type: square;
+}
+
+#list1 {
+  margin-bottom: 60px;
+}
+
+li {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-weight: 300;
+  font-size: 15px;
+  list-style-type: square;
+  line-height: 1.5em;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+blockquote::before {
+  content: '\201C';
+  font-family: 'Abril Fatface',  cursive;
+  font-size: 130px;  
+  color: white;
+  position: absolute;
+  top: -35px;
+  left: 0px;
+  }
+
+blockquote {
+  position: relative;
+  background-color: #424641;
+  margin: auto;
+  width: 110%;
+  right: 6%;
+  padding: 10px 10px 10px 10px;
+}
+
+#blocktext1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 45px;
+  color: white;
+  position: relative;
+  top: -6px;
+  text-align: center;
+}
+
+#blocktext2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 45px;
+  color: white;
+  position: relative;
+  top: -6px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  color: #222;
+  margin-top: 60px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.subtitle {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+hr {
+  display: block;
+  width: 110%;
+  right: 6%;
+  position: relative;
+  margin-top: 40px;
+  padding: 2px;
+  background-color: black;
+  border: none;
+}
